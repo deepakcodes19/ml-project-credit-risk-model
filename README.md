@@ -69,15 +69,6 @@ project/
 │   └── model_data.joblib       # Trained ML model, scaler, features, metadata
 │
 ├── README.md                   # Full project documentation
-│
-├── data/                       # (Optional) Raw & cleaned datasets
-│   ├── raw_data.csv
-│   └── processed_data.csv
-│
-└── notebooks/                  # (Optional) EDA, training & model evaluation notebooks
-    ├── 01_EDA.ipynb
-    ├── 02_Feature_Engineering.ipynb
-    └── 03_Model_Training.ipynb
 
 
 ## 🧩 How It Works
