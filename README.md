@@ -60,79 +60,25 @@ A modern, fintech-style interface with:
 ---
 
 ## 🏗️ Project Structure
-
-# 💳 Lauki Finance – Credit Risk Modelling  
-An end-to-end **Credit Risk Prediction System** built with **Machine Learning, Python, and Streamlit**, designed to estimate the **probability of loan default**, assign a **credit score**, and classify applicants into **risk tiers** (Poor to Excellent).
-
-This project simulates a real-world risk engine used in **banks, lending fintechs, and NBFCs**, and includes:
-
-- 🧠 A trained ML model (Logistic Regression)  
-- ⚙️ Scaler, feature engineering & preprocessing pipeline  
-- 🔍 Real-time prediction using a Streamlit UI  
-- 🎚️ Dynamic credit score + risk rating  
-- 📊 Feature importance visualization  
-- 🚀 Deployable, modular project structure  
-
----
-
-## 🚀 Live Features
-**✔ Real-time Credit Risk Prediction**  
-Enter customer inputs such as age, income, loan amount, delinquency ratio, DPD, utilization, loan purpose, residence type, etc.
-
-**✔ Default Probability (0–100%)**  
-The model outputs the applicant’s likelihood of default using logistic regression.
-
-**✔ Credit Score (300–900)**  
-A custom scoring formula converts probability → score.
-
-**✔ Credit Rating Classification**  
-- Excellent  
-- Good  
-- Average  
-- Poor  
-
-**✔ Premium UI / UX**  
-A modern, fintech-style interface with:  
-- Gradient header  
-- Clean input layout  
-- Risk heat color indicator  
-- Premium result box  
-- Credit score gauge (linear meter)  
-- Animated high-risk alerts  
-
----
-
-## 🧠 Machine Learning Model
-**Algorithm:** Logistic Regression  
-**Training Pipeline Includes:**  
-- Feature engineering  
-- Scaling (MinMaxScaler)  
-- Dummy variable encoding  
-- Custom risk-score transformation  
-- Model saved via `joblib`
-
-**Top Predictive Features (based on coefficients):**  
-- Loan-to-Income Ratio  
-- Credit Utilization Ratio  
-- Delinquency Ratio  
-- Average DPD per Delinquency  
-- Number of Open Accounts  
-- Residence Type  
-- Loan Purpose & Loan Type  
-
----
-
-## 🏗️ Project Structure
-
 project/
-│── main.py # Streamlit UI
-│── prediction_helper.py # Prediction pipeline
-│── artifacts/
-│ └── model_data.joblib # Trained ML model + scaler + metadata
-│── README.md # Project documentation
-│── data/ # (Optional) Training dataset
-│── notebooks/ # (Optional) EDA & training notebooks
----
+│
+├── main.py                     # Streamlit UI Application
+├── prediction_helper.py        # Prediction pipeline (model loading, preprocessing & scoring)
+│
+├── artifacts/                  # Saved model + preprocessing assets
+│   └── model_data.joblib       # Trained ML model, scaler, features, metadata
+│
+├── README.md                   # Full project documentation
+│
+├── data/                       # (Optional) Raw & cleaned datasets
+│   ├── raw_data.csv
+│   └── processed_data.csv
+│
+└── notebooks/                  # (Optional) EDA, training & model evaluation notebooks
+    ├── 01_EDA.ipynb
+    ├── 02_Feature_Engineering.ipynb
+    └── 03_Model_Training.ipynb
+
 
 ## 🧩 How It Works
 1. User enters loan and personal information  
@@ -158,9 +104,10 @@ project/
 ![Inputs](path/to/inputs.png)
 
 ### 🔹 Credit Assessment Result  
-![Results](path/to/results.png)
+<img width="1373" height="687" alt="image" src="https://github.com/user-attachments/assets/d0d5a86d-216e-4293-b4cd-c57754ae438d" />
 
-*(Place screenshots here once you upload them.)*
+
+
 
 ---
 
