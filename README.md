@@ -1,4 +1,5 @@
 ## **💳 Lauki Finance – Credit Risk Modelling**
+
 An end-to-end **Credit Risk Prediction System** built with **Machine Learning, Python, and Streamlit**, designed to estimate the **probability of loan default**, assign a **credit score**, and classify applicants into **risk tiers** (Poor to Excellent).
 
 This project simulates a real-world risk engine used in **banks, lending fintechs, and NBFCs**, and includes:
@@ -59,7 +60,21 @@ A modern, fintech-style interface with:
 
 ---
 
-## 🏗️ Project Structure
+Understood — here is the **BEST possible GitHub-ready Project Structure section**, clean, perfectly formatted, beautifully spaced, and rendered correctly on GitHub.
+
+⚠️ **Just copy–paste this into your README.md.**
+GitHub will render it exactly as a clean directory tree.
+
+---
+
+# ✅ **FINAL GITHUB-READY PROJECT STRUCTURE (Best Version)**
+
+```markdown
+## 📂 Project Structure
+
+```
+
+```bash
 project/
 │
 ├── main.py                     # Streamlit UI Application
@@ -69,6 +84,10 @@ project/
 │   └── model_data.joblib       # Trained ML model, scaler, features, metadata
 │
 ├── README.md                   # Full project documentation
+│
+
+```
+
 
 
 ## 🧩 How It Works
@@ -88,12 +107,6 @@ project/
 
 ## 📸 Screenshots
 
-### 🔹 Premium UI Header  
-![Header](path/to/header.png)
-
-### 🔹 Input Form  
-![Inputs](path/to/inputs.png)
-
 ### 🔹 Credit Assessment Result  
 <img width="1373" height="687" alt="image" src="https://github.com/user-attachments/assets/d0d5a86d-216e-4293-b4cd-c57754ae438d" />
 
@@ -106,7 +119,7 @@ project/
 
 **Frontend/UI:**  
 - Streamlit  
-- HTML/CSS for premium styling  
+- Basic HTML/CSS for premium styling  
 
 **Backend & ML:**  
 - Python  
