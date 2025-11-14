@@ -1,4 +1,4 @@
-# 💳 Lauki Finance – Credit Risk Modelling  
+## **💳 Lauki Finance – Credit Risk Modelling**
 An end-to-end **Credit Risk Prediction System** built with **Machine Learning, Python, and Streamlit**, designed to estimate the **probability of loan default**, assign a **credit score**, and classify applicants into **risk tiers** (Poor to Excellent).
 
 This project simulates a real-world risk engine used in **banks, lending fintechs, and NBFCs**, and includes:
