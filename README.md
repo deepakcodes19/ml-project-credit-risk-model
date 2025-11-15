@@ -16,6 +16,7 @@ This project simulates a real-world risk engine used in **banks, lending fintech
 ## 🚀 Live Features
 **✔ Real-time Credit Risk Prediction**  
 **Live App: https://dy-ml-project-credit-risk-model.streamlit.app/**
+
 Enter customer inputs such as age, income, loan amount, delinquency ratio, DPD, utilization, loan purpose, residence type, etc.
 
 **✔ Default Probability (0–100%)**  
