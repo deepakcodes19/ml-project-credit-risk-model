@@ -101,7 +101,8 @@ project/
 ## 📸 Screenshots
 
 ### 🔹 Credit Assessment Result  
-<img width="1438" height="802" alt="image" src="https://github.com/user-attachments/assets/d45fd105-2435-4c09-97df-9c942063a1f1" />
+<img width="1407" height="799" alt="image" src="https://github.com/user-attachments/assets/a9e33f42-0448-4b9e-acb0-0a75728a8912" />
+
 
 
 
