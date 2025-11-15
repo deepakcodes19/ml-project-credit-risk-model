@@ -128,7 +128,7 @@ if st.button("🔍 Calculate Risk", use_container_width=True):
 
     # Premium Output Box
     st.markdown("<div class='result-box'>", unsafe_allow_html=True)
-    st.subheader("📊 Credit Assessment Result")
+    st.subheader("💳 Credit Assessment Result")
 
     st.write(f"**Default Probability:** `{probability:.2%}`")
     st.write(f"**Credit Score:** `{credit_score}`")
