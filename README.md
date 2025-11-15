@@ -1,4 +1,4 @@
-## **💳 Lauki Finance – Credit Risk Modelling**
+## **💳 Easy Finance – Credit Risk Modelling**
 
 An end-to-end **Credit Risk Prediction System** built with **Machine Learning, Python, and Streamlit**, designed to estimate the **probability of loan default**, assign a **credit score**, and classify applicants into **risk tiers** (Poor to Excellent).
 
@@ -101,7 +101,8 @@ project/
 ## 📸 Screenshots
 
 ### 🔹 Credit Assessment Result  
-<img width="1373" height="687" alt="image" src="https://github.com/user-attachments/assets/d0d5a86d-216e-4293-b4cd-c57754ae438d" />
+<img width="1438" height="802" alt="image" src="https://github.com/user-attachments/assets/d45fd105-2435-4c09-97df-9c942063a1f1" />
+
 
 
 
