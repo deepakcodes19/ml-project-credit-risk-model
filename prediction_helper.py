@@ -2,9 +2,11 @@ import joblib
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
+import os
 
-# Path to the saved model and its components
-MODEL_PATH = r"C:\Users\Deepak Y\OneDrive\Documents\Pyhton Basics\Project_2_classification_risk_model\artifacts\model_data.joblib"
+MODEL_PATH = os.path.join("artifacts", "model_data.joblib")
+
+
 
 
 # Load the model and its components
